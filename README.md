@@ -26,7 +26,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using Ope
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/subinvasanthan/ragchabot.git
 cd your-repo-name
 ```
 
@@ -85,7 +85,7 @@ This script scrapes website content and stores it into the same `vector_db/` fol
 Once the vector database is ready, start the chatbot:
 
 ```bash
-python chatbot.py
+streamlit run chatbot.py 
 ```
 
 The chatbot will:
